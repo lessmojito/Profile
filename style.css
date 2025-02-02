@@ -1,0 +1,175 @@
+html{
+    background-color: #f8f1ca;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
+
+}
+
+.container{
+    max-width: 990px;
+    min-height: 300px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+}
+
+.circle{
+    flex:1;
+    
+}
+
+/* img{
+    size: ;
+} */
+
+.int{
+    flex:3;
+}
+
+h1{
+    font-size: 30px;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 500;
+    color: #3d5b82;
+}
+
+.icon{
+    display: flex;
+}
+
+.icon span{
+    color: #3d5b82;
+    font-size: 30px;
+}
+
+p{
+    font-size: 25px;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 500;
+    color: #3d5b82;
+}
+
+.a, .a a{
+    font-size: 25px;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 500;
+    color: #6789b4;
+}
+
+nav{
+    background-color: #3d5b82;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+}
+
+
+nav p{
+    font-size: 25px;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 500;
+    color: white;
+
+}
+
+.one{
+    display: block;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.one span{
+    color: white;
+
+}
+
+.two{
+    margin-left: 30px;
+}
+
+.three{
+    margin-left: 10px;
+}
+
+.four{
+    margin-left: 10px;
+}
+
+.section{
+    position: relative;
+    border: 2px solid white; /* 內層框線 */
+    padding: 10px 5px;
+  }
+  
+.section::before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border: 3px solid white; /* 外層框線 */
+  }
+
+.section p{
+    line-height: 1.5;
+}
+
+.b{
+    font-size: 25px;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 500;
+    color: #6789b4;
+}
+
+.link a{
+    font-size: 30px;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 500;
+    color: #3d5b82;
+    text-decoration: none;
+}
+
+.link a:hover{
+    text-decoration: underline;
+}
+
+.c{
+    font-size: 22px;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+    color: #3d5b82;
+    line-height: 1.5;
+}
+
+.d{
+    font-size: 22px;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 500;
+    color: #6789b4;
+    line-height: 1.5;
+}
+
+.s{
+    display: flex;
+    justify-content: space-between;
+}
+
+.l{
+    flex: 1;
+    margin-right: 100px;
+}
+
+.r{
+    flex: 1;
+    margin-left: 200px;
+
+}
+
+@media screen and (max-width: 500px){
+
+}
