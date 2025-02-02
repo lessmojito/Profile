@@ -170,6 +170,40 @@ nav p{
 
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
+    
+    body{
+        position: absolute;
+        padding: 0 20px 0 10px;
+    }
+
+    .l{
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+
+    body{
+        position: absolute;
+        padding: 0 20px 0 10px;
+    }
+
+    .nav{
+        width: 100%;
+    }
+
+    .one p, .icon span{
+        font-size: 20px;
+    }
+
+    .four{
+        margin: 0;
+    }
+    
+    .section{
+        margin: 0;
+    }
 
 }
