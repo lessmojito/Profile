@@ -38,6 +38,7 @@ h1{
 
 .icon{
     display: flex;
+    justify-content: center;
 }
 
 .icon span{
