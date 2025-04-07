@@ -64,7 +64,7 @@ nav {
   width: 100%;
   display: flex;
   justify-content: center;
-  gap: 40px; /* 控制技能區塊間距 */
+  gap: 10px; /* 控制技能區塊間距 */
   padding: 10px 5px;
 }
 
