@@ -39,6 +39,7 @@ h1{
 .icon{
     display: flex;
     justify-content: center;
+    margin-left: 10px;
 }
 
 .icon span{
