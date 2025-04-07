@@ -82,6 +82,11 @@ nav p{
     margin-left: 5px;
 }
 
+.new{
+    display: flex;
+    align-items: center;
+}
+
 .one span{
     color: white;
 
