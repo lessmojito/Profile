@@ -80,7 +80,7 @@ nav p{
   width: auto;
   text-align: center;
   white-space: nowrap;
-  flex-grow: 1;
+  flex: 1;
 
 }
 
