@@ -78,10 +78,12 @@ nav p{
 
 .one{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 5px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+  text-align: center;
+  width: 120px; /* 或你需要的固定寬度 */
 }
 
 .one span{
