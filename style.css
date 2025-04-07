@@ -63,7 +63,7 @@ nav {
   background-color: #3d5b82;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding: 10px 5px;
 }
 
@@ -81,7 +81,6 @@ nav p{
   max-width: 200px; /* 或設置為自適應大小 */
   text-align: center;
   white-space: nowrap;
-  justify-content: space-around;
 
 }
 
