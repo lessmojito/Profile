@@ -63,7 +63,6 @@ nav {
   background-color: #3d5b82;
   width: 100%;
   display: flex;
-  justify-content: center;
   justify-content: space-around;
   padding: 10px 5px;
 }
@@ -79,7 +78,9 @@ nav p{
 
 .one {
   width: auto;
+  flex-direction: column;
   text-align: center;
+  align-items: center;
   white-space: nowrap;
   flex: 1;
 
