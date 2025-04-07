@@ -59,14 +59,14 @@ p{
     color: #6789b4;
 }
 
-nav{
-    background-color: #3d5b82;
-    width: 100%;
-    display: flex;
-    justify-content: space-around; /* 讓每一塊平均分配 */
-    padding: 10px 5px;
+nav {
+  background-color: #3d5b82;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* 控制技能區塊間距 */
+  padding: 10px 5px;
 }
-
 
 nav p{
     font-size: 25px;
@@ -76,14 +76,14 @@ nav p{
 
 }
 
-.one{
-    display: flex;
+.one {
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: 5px;
   text-align: center;
-  width: 120px; /* 或你需要的固定寬度 */
+  width: 130px;
+  margin: 0 10px;
 }
 
 .one span{
